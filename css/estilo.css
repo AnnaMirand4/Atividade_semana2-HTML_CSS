@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+#menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #01012b;
+    display: flex;
+    justify-content:flex-end;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+li {
+    margin-right: 20px;
+    color: #534acf;
+    font-family: 'Audiowide', cursive;
+
+}
+
+a {
+    background-color:#534acf;
+    color: #d1f7ff;
+    font-family: 'Audiowide', cursive;
+    padding: 10px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border-color: #d1f7ff;
+    border: solid;
+    display: flex;
+    justify-content:center;
+    width: 50%;
+    
+} 
+a:hover {
+   
+    background-color: #ff2a6d;
+
+    transition: 0.1s;
+
+    opacity: 0.9;
+
+}
+body {
+    padding-top: 90px;
+    background-color: #01012b;
+}
+
+img {
+    width: 400px;
+    padding-top: 15px;
+}
+img:first-child {
+    width: 500px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.imagem {
+    width: 40%;
+    background-color: #01012b;
+    margin: 0;
+
+    
+}
+.titulo {
+    width: 60%;
+    background-color: #01012b;
+    
+}
+h1 {
+    font-family: 'Audiowide', cursive;
+    font-size: 85px;
+    padding-left: 35px;
+    font-style: oblique;
+    color:#d1f7ff;
+}
+.container-texto {
+   display: flex;
+   flex-direction: row;
+
+}
+
+.texto {
+    width: 70%;
+    background-color: #05d9e8;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.info-livro {
+    width: 30%;
+    background-color: #05d9e8;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.titulo2 {
+    font-family: 'Audiowide', cursive;
+    color: #534acf;
+    padding-left: 10px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #01012b;
+    text-align: justify;
+    padding: 10px;
+}
+i { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #1a1a2c;
+    padding-top: 50px;
+}
+.rodape {
+    background-color: #ff2a6d;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+   
+}
+
+#citacao {
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+@keyframes load {
+    100% {
+        background-size: 110%;
+    }
+}
+.loader {
+    margin: 40px;
+    width: 700px;
+    height: 20px;
+    border-radius: 20px;
+    background: linear-gradient(#ff2a6d 0 0)
+    0/0% no-repeat #534acf;
+    animation: load 2s infinite steps(10);
+}
